@@ -1,4 +1,4 @@
-# This message represents the gesture detected by the Myo
+# This message represents a gesture detected by the Myo
  
 # Detected gesture, as of Alpha 5 version of SDK
 int8 GESTURE_NONE=0
