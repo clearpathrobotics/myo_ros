@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(myo_ros)
 
+# I've left the boilerplate here for reference when I put an example node in
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
@@ -38,6 +40,7 @@ add_message_files(
     FILES
     Gesture.msg
     Vibration.msg
+    Status.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
